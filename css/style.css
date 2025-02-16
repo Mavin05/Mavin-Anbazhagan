@@ -207,25 +207,25 @@ a:focus {
 
 @keyframes shadowSpin{
   0%{
-    box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    box-shadow: 10px -10px #39CCCC, -10px 10px #5888f4;
   }
   25%{
-    box-shadow: 10px 10px #39CCCC, -10px -10px #FFDC00;
+    box-shadow: 10px 10px #39CCCC, -10px -10px #5888f4;
   }
   50%{
-    box-shadow: -10px 10px #39CCCC, 10px -10px #FFDC00;
+    box-shadow: -10px 10px #39CCCC, 10px -10px #5888f4;
   }
   75%{
-    box-shadow: -10px -10px #39CCCC, 10px 10px #FFDC00;
+    box-shadow: -10px -10px #39CCCC, 10px 10px #5888f4;
   }
   100%{
-    box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    box-shadow: 10px -10px #39CCCC, -10px 10px #5888f4;
   }
 }
 
 #load {
 	z-index: 9999;
-  background-color: #FF4136;
+  background-color: #01204e;
   opacity: 0.75;
   width: 10px;
   height: 10px;
@@ -235,8 +235,8 @@ a:focus {
   left: 0;
   right: 0;
   border-radius: 0px;
-  border: 5px solid #FF4136;
-  box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+  border: 5px solid #01204e;
+  box-shadow: 10px 0px #5888f4, 10px 0px #39CCCC;
   animation: shadowSpin 1s ease-in-out infinite;
 }
 
