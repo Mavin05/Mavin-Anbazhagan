@@ -7,7 +7,7 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
-    color: #666;
+    color: #000;
     background-color: #fff;
 }
 
@@ -19,12 +19,11 @@ html {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Montserrat,sans-serif;
+    font-family: sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -32,6 +31,7 @@ h6 {
 p {
     margin: 0 0 20px;
     font-size: 16px;
+    font-family: Arial;
     line-height: 1.6em;
 }
 
@@ -94,7 +94,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -268,6 +268,7 @@ hr {
 
 .section-heading h2 {
 	font-size: 40px;
+    color: #000;
 }
 .section-heading i {
 	margin-bottom: 20px;
@@ -281,7 +282,8 @@ hr {
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #5888f4;
+    opacity: .5;
 }
 
 
@@ -303,9 +305,8 @@ hr {
 
 .intro {
 	width:100%;
-	position:relative;
-	
-	background: url(../img/bgimg.jpg) no-repeat top center;
+	position: relative;
+	background: url(../img/bgimg.jpg) center;
 }
 
 #intro.intro {
@@ -313,12 +314,13 @@ hr {
 }
 
 .intro .slogan {
-	text-align: center;
-
+	position: center;
+    margin-left: 7.3%;
 }
 
 .intro .page-scroll {
 	text-align: center;
+    margin-top: 5%;
 }
 
 .brand-heading {
@@ -347,25 +349,34 @@ hr {
 
 .intro .slogan h4 {
 	color: #fff;
+    font-size: 50px;
+    font-family: Bebas Neue;
 	text-shadow: -1px 1px 1px #000;
 }
-
+.intro .slogan .headcolor{
+	color: #8dd2f8;
+    font-size: 50px;
+    font-family: Bebas Neue;
+	text-shadow: -1px 1px 1px #000;
+}
 
 /* ===========================
 --- About
 ============================ */
 
 .boxed-grey {
-	background: #f9f9f9;
+	background: linear-gradient(#01204e,#5888f4);
 	padding: 20px;
 }
 
 .team h5 {
 	margin-bottom: 10px;
+    color: #fff;
 }
 
 .team p.subtitle {
 	margin-bottom: 10px;
+    color: #fff;
 }
 
 .avatar {
@@ -427,14 +438,17 @@ hr {
 
 .service-icon {
 	margin-bottom: 20px;
+}
+.service-desc{
+    color: #fff;
 }	
-
-
 
 /* ===========================
 --- Contact
 ============================ */
-
+label{
+    color: #fff;
+}
 form#contact-form .form-group label {
 	text-align: left !important;
 	display: block;
@@ -511,8 +525,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social .social-deviantart a:hover{background: #adc376;}
 .company-social .social-google a:hover{background: #333;}
 .company-social .social-vimeo a:hover{background: #71c6f3;}
-
-
 
 /* ===========================
 --- Footer
