@@ -396,18 +396,18 @@ hr {
 	padding:0;
 }
 .Imgres{
-    width: 100%;
-    margin-left: 100%;
+    width: 150%;
+    margin-left: 20%;
     filter: drop-shadow(5px 4px 6px #000);
 }
 .Imgres1{
-    width: 100%;
-    margin-left: 120%;
+    width: 150%;
+    margin-left: 40%;
     filter: drop-shadow(3px 4px 6px #000);
 }
 .Imgres2{
-    width: 100%;
-    margin-left: -115%;
+    width: 150%;
+    margin-left: 60%;
     filter: drop-shadow(3px 4px 6px #000);
 }
 .avatar a{
